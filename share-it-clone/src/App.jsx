@@ -1,17 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Component } from 'react'
+import React from 'react'
+import './index.css'
+import Routes from './routes'
 
-function App() {
-  return (
-    <>
-      <div id="Title">File Transfer Platform</div>
-      <div id="Main">
+// function App() {
+//   return (
+//     <>
+//       <div id="Title">File Transfer Platform</div>
+//       <div id="Main">
         
-      </div>
-    </>
-  )
+//       </div>
+//     </>
+//   )
+// }
+
+class App extends Component{
+  render(){
+    return(
+      <Routes />
+    )
+  }
 }
 
 export default App

@@ -12,4 +12,6 @@ const routes=() => (
             <Route path='*' component={Folders}/>
         </Switch>
     </BrowseRouter>
-)
+);
+
+export default routes;
