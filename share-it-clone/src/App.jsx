@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div id="Title">File Transfer Platform</div>
-      <div id="Main-task">
+      <div id="Main">sss
         
       </div>
     </>
