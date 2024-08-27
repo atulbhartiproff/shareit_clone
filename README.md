@@ -14,6 +14,7 @@ for notes on deploying the project on a live system.
 - Android Device
 - Android 8+
 
+
 # Installation
 
 **from your command line *(using npm)*:**
@@ -48,10 +49,20 @@ Help me out if you want to, all the help is appreciated.
 
 ## Built With
 
+- [ReactJS](https://github.com/facebook/react/)
+- CSS only
+- [Socket.IO](https://github.com/socketio/socket.io-client)
+- [Axios](https://github.com/axios/axios)
 
-- Java
-- Will see as development proceeds
+# Rest api
+all data is being consumed from an rest api written in node, you can check the [repo here](https://github.com/emkis/dropbox-clone-api)
 
+# Note
+every file you store here is deleted about every 30 minutes, so dont worry 
+
+the api that storages all files is hosted on [heroku](https://www.heroku.com/), and heroku always erase everything when the app is restarted, thats why it happen
+
+but if you use another host service for the api you can use this app without this prolem
 
 
 ## Authors
