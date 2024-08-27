@@ -67,7 +67,8 @@ but if you use another host service for the api you can use this app without thi
 
 ## Authors
 
-Just me , myself and I for now
+Just me , myself and I for now.
+Also this repo was highly inspired by another repo on github which i forgot, if somebody remembers just remind me.
 
 ## License
 
