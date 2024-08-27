@@ -14,10 +14,29 @@ for notes on deploying the project on a live system.
 - Android Device
 - Android 8+
 
-### Installing
+# Installation
 
+**from your command line *(using npm)*:**
 
-    Still under development so no clue rn
+```bash
+# clone this repository
+$ git clone https://github.com/emkis/dropbox-clone.git
+
+# go into the repository
+$ cd dropbox-clone
+
+# create a .env file based on the example and define the api url
+# you can use the api that is used in production: https://dropbox-clone-back.herokuapp.com
+$ cp .env.example .env
+
+# install dependencies
+$ npm install
+
+# run the app in development mode
+$ npm run start
+```
+
+---
 
 ## Running the tests
 
