@@ -1,0 +1,4 @@
+# Some Links worth looking into
+
+- This shareing library [srihary.com/2017/01/10/sharethem-android-library-to-simulate-how-shareit-works/] is worth looking into.
+- Also, the official documentations of android developer [developer.android.com/develop/connectivity/wifi/nsd-wifi-direct] sounds like a good place to start too.
